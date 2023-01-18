@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: lightseagreen;
+}
+
+.wrapper{
+    width: 350px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: peru;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px red;
+}
+
+.wrapper:hover{
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-size: 2rem;
+    color: rgb(41, 0, 41);
+    margin-bottom: 1.2rem;
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: papayawhip;
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 90%;
+    background: rgb(36, 36, 85);
+}
+
+button:hover{
+    background: rgb(60, 60, 97);
+}
+
+input:focus{
+    border: 1px solid rgb(128, 128, 155);
+}
+
+.terms{
+    margin-top: 0.2rem;
+}
+
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label{
+    font-size: 0.7rem;
+}
+
+.terms a{
+    color: rgb(54, 96, 121);
+    text-decoration: none;
+}
+
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+
+.member a{
+    color: rgb(54, 96, 121);
+    text-decoration: none;
+}
